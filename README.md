@@ -1,9 +1,7 @@
 # Product Advertising API 5.0 SDK for Python
 
-
 [![pypi version](http://img.shields.io/pypi/v/paapi5-python-sdk.svg?style=flat)](https://pypi.python.org/pypi/paapi5-python-sdk/)
 [![pypi downloads](https://img.shields.io/pypi/dm/paapi5-python-sdk.svg.svg?style=flat)](https://pypi.python.org/pypi/paapi5-python-sdk/)
-
 
 This repository contains the official Product Advertising API 5.0 Python SDK called **paapi5-python-sdk** that allows you to access the [Product Advertising API](https://webservices.amazon.com/paapi5/documentation/index.html) from your Python app.
 
@@ -26,11 +24,13 @@ Or, you may also install directly from Github
 ```sh
 pip install git+https://github.com/amzn/paapi5-python-sdk.git
 ```
+
 (you may need to run `pip` with root permission: `sudo pip install git+https://github.com/amzn/paapi5-python-sdk.git`)
 
 Then import the package:
+
 ```python
-import paapi5_python_sdk 
+import paapi5_python_sdk
 ```
 
 ### Setuptools
@@ -40,9 +40,11 @@ Install via [Setuptools](http://pypi.python.org/pypi/setuptools).
 ```sh
 python setup.py install --user
 ```
+
 (or `sudo python setup.py install` to install the package for all users)
 
 Then import the package:
+
 ```python
 import paapi5_python_sdk
 ```
@@ -166,11 +168,12 @@ def search_items():
 
     except Exception as exception:
         print("Exception :", exception)
- 
+
 search_items()
 ```
 
 Complete documentation, installation instructions, and examples are available [here](https://webservices.amazon.com/paapi5/documentation/index.html).
 
 ## License
+
 This SDK is distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0), see LICENSE.txt and NOTICE.txt for more information.
